@@ -16,11 +16,11 @@ class SeasonSelection : AppCompatActivity() {
         supportActionBar?.title = "Getting started!"
 
         val funFactsArray = arrayOf<String>(
-            "More than 6000 varieties of 🍎 are grown around the world.",
-            "🍌 are the number one fruit crop in the world.",
+            "More than 6️⃣0️⃣0️⃣0️⃣ varieties of 🍎 are grown around the world.",
+            "🍌 are the number 1️⃣ fruit crop in the world 👑",
             "🐝 contribute to more than \$15 billion worth of crops every year through pollination.",
             "Technically 🍅 is a fruit.", "Not all 🍊 are 🟠 in colour.",
-            "A pomegranate can hold up to 1000 seeds.",
+            "A pomegranate can hold up to 1️⃣0️⃣0️⃣0️⃣ seeds.",
             "Yams and sweet potatoes are not the same thing!",
             "🎃 and 🥒 are also classed as a fruit, not a vegetable."
         )
