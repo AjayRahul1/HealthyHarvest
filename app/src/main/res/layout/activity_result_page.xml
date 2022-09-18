@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_green"
+    tools:context=".ResultPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recommended_result_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/based_on_your_factors_we_recommend"
+            android:textColor="@color/black"
+            android:fontFamily="@font/miniver_regular"
+            android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/crop_recommendations_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                tools:text="1. Rice\n2. Maize\n3. Cotton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="36sp"
+            android:text="@string/end_of_the_list" />
+
+        <Button
+            android:id="@+id/Return_Home_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/white"
+            android:drawableStart="@drawable/ic_baseline_home_24"
+            android:backgroundTint="@color/navy_blue"
+            android:text="@string/return_to_home_page" />
+    </LinearLayout>
+</ScrollView>

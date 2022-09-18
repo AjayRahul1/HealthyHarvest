@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Healthy Harvest</string>
+    <string name="title_activity_soil_and_season_selection">SoilActivityAndSeasonSelection</string>
+    <string name="facts_text">Random Facts💡</string>
+    <string name="summer">Summer</string>
+    <string name="winter">Winter</string>
+    <string name="rainy">Rainy</string>
+    <string name="action_settings">Settings</string>
+    <string name="select_your_current_season">----------------------------\nSelect your current season\n----------------------------</string>
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="select_your_soil_to_recommend_crops">Select your soil type, so that we can recommend related crops</string>
+    <string name="forest_and_mountain_soil">Forest and Mountain Soil</string>
+    <string name="loamy_soil">Loamy Soil</string>
+    <string name="arid_soil">Arid Soil</string>
+    <string name="laterite_soil">Laterite Soil</string>
+    <string name="red_soil">Red Soil</string>
+    <string name="black_soil">Black Soil</string>
+    <string name="alluvial_soil">Alluvial Soil</string>
+    <string name="welcome_to_healthy_harvest">Welcome to Healthy Harvest ☘</string>
+    <string name="you_want_to_choose_agriculture_as">You want to choose Agriculture as?</string>
+    <string name="hobby">Hobby</string>
+    <string name="profession">Profession</string>
+    <string name="based_on_your_factors_we_recommend">Based on your factors, we recommend:</string>
+    <string name="return_to_home_page">Return To Home Page</string>
+    <string name="end_of_the_list">--- End of the list ---</string>
+</resources>
