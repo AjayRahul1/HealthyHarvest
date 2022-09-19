@@ -55,7 +55,7 @@ class ResultPage : AppCompatActivity() {
             }
 
             "Winter" -> when (receivedSoilSelectionData) {
-                "Alluvial Soils" -> cropRecommendationTextView.text =
+                "Alluvial Soil" -> cropRecommendationTextView.text =
                     cropsNames[21] + cropsNames[30] + cropsNames[3]
                 "Red Soil" -> cropRecommendationTextView.text = cropsNames[21]+cropsNames[31]
                 "Laterite Soil", "Arid Soil" -> cropRecommendationTextView.text =
