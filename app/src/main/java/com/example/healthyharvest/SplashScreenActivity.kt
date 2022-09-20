@@ -15,8 +15,7 @@ class SplashScreenActivity : AppCompatActivity() {
         val handler = Handler(Looper.getMainLooper())
         handler.postDelayed({
             val intent = Intent(this, MainActivity::class.java)
-            val welcomeToast = Toast.makeText(applicationContext, "Harvesting Welcomes you ✨", Toast.LENGTH_SHORT)
-            welcomeToast.show()
+            Toast.makeText(applicationContext, "Harvesting Welcomes you ✨", Toast.LENGTH_SHORT).show()
             startActivity(intent)
             finish()
         }, 2000)

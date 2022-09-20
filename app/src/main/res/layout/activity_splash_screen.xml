@@ -38,10 +38,10 @@
         android:textColor="@color/black"
         />
     <ProgressBar
-        android:layout_width="match_parent"
+        android:id="@+id/splash_progress_bar"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:layout_below="@id/splash_loading_text"
         />
