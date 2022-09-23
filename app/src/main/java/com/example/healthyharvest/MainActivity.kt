@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.RadioButton
 import android.widget.RadioGroup
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -13,6 +14,8 @@ class MainActivity : AppCompatActivity() {
 
         // Hide action bar
         supportActionBar?.hide()
+
+        Toast.makeText(applicationContext, "Harvesting Welcomes you ✨", Toast.LENGTH_SHORT).show()
 
         //radio button transfers to soil selection
         val chooseAgricultureButton = findViewById<RadioGroup>(R.id.radio_buttons_choose_agriculture_as)
