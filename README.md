@@ -14,8 +14,8 @@
 3️⃣ This application helps identify which crops should be grown properly based on season and soil type.  
 4️⃣ One step seem low but one step of each person on the planet make a huge impact. 🚀
 
-### Future feautures:
-1️⃣ Clicking on any crop recommended will give information about the crop
+### Future features:
+1️⃣ Clicking on any crop recommended will give information about the crop  
 2️⃣ Crop recommendations will be provided using more data like size of land and Weather conditions
 
 THANKS! ✨
