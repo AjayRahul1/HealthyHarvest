@@ -11,7 +11,7 @@
         <item name="colorOnSecondary">@color/black</item>
         <item name="android:fontFamily">@font/crimson_text_regular</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor">@color/dark_green</item>
+        <item name="android:statusBarColor">@color/black</item>
         <!-- Customize your theme here. -->
     </style>
 </resources>
