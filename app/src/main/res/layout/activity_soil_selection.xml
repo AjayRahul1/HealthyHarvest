@@ -25,11 +25,13 @@
                 android:textSize="20sp"
                 android:textStyle="bold|italic" />
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/img7"
-                android:layout_width="300dp"
-                android:layout_height="160dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/circular_image"
                 android:contentDescription="@string/alluvial_soil"
                 android:src="@drawable/alluvial_soil" />
             <RadioButton
@@ -39,11 +41,13 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/alluvial_soil" />
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/img6"
-                android:layout_width="300dp"
-                android:layout_height="120dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/circular_image"
                 android:contentDescription="@string/black_soil"
                 android:src="@drawable/black_soil" />
             <RadioButton
@@ -53,11 +57,13 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/black_soil" />
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/img1"
-                android:layout_width="300dp"
-                android:layout_height="140dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/circular_image"
                 android:contentDescription="@string/forest_and_mountain_soil"
                 android:src="@drawable/forest_and_mountain_soil" />
             <RadioButton
@@ -68,11 +74,13 @@
                 android:text="@string/forest_and_mountain_soil"
                 android:textAlignment="center" />
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/img2"
-                android:layout_width="300dp"
-                android:layout_height="200dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/circular_image"
                 android:contentDescription="@string/loamy_soil"
                 android:src="@drawable/loamy_soil" />
             <RadioButton
@@ -82,11 +90,13 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/loamy_soil" />
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/img3"
-                android:layout_width="300dp"
-                android:layout_height="200dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/circular_image"
                 android:contentDescription="@string/arid_soil"
                 android:src="@drawable/arid_soil" />
             <RadioButton
@@ -96,11 +106,13 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/arid_soil" />
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/img4"
-                android:layout_width="300dp"
-                android:layout_height="200dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/circular_image"
                 android:contentDescription="@string/laterite_soil"
                 android:src="@drawable/laterite_soils" />
             <RadioButton
@@ -110,12 +122,14 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/laterite_soil" />
 
-            <ImageView
+            <com.google.android.material.imageview.ShapeableImageView
                 android:id="@+id/img5"
-                android:layout_width="300dp"
-                android:layout_height="190dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_gravity="center_horizontal"
                 android:contentDescription="@string/red_soil"
+                android:scaleType="centerCrop"
+                app:shapeAppearanceOverlay="@style/circular_image"
                 android:src="@drawable/red_soil" />
             <RadioButton
                 android:id="@+id/R5"
@@ -140,6 +154,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="15dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
             android:text="@string/submit" />
     </LinearLayout>
 </ScrollView>

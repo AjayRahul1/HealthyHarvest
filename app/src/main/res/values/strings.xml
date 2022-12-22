@@ -25,4 +25,9 @@
     <string name="return_to_home_page">Return To Home Page</string>
     <string name="end_of_the_list">--- End of the list ---</string>
     <string name="loading">Loading...</string>
+    <string name="App_Description">
+        This application is for people who are starting with agriculture and wanted to know about what crops can be grown in what season.
+        \n\nThis application with simple Interface with options help you choose crops based on the Season and Soil Type.
+        \n\nClick Next to continue
+    </string>
 </resources>
