@@ -148,6 +148,7 @@
             android:textSize="36sp" />
             -->
 
+        <!--
         <Button
             android:id="@+id/soil_submit_button"
             android:layout_width="wrap_content"
@@ -157,5 +158,6 @@
             android:textColor="@color/white"
             android:backgroundTint="@color/black"
             android:text="@string/submit" />
+            -->
     </LinearLayout>
 </ScrollView>
