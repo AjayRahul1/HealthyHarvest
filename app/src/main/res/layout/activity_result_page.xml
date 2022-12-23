@@ -18,37 +18,44 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
+            android:fontFamily="@font/miniver_regular"
             android:gravity="center"
             android:text="@string/based_on_your_factors_we_recommend"
             android:textColor="@color/black"
-            android:fontFamily="@font/miniver_regular"
             android:textSize="25sp" />
 
-            <TextView
-                android:id="@+id/crop_recommendations_list"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="15dp"
-                android:textColor="@color/black"
-                android:textSize="25sp"
-                tools:text="1. Rice\n2. Maize\n3. Cotton" />
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:dividerColor="@color/black" />
 
         <TextView
+            android:id="@+id/crop_recommendations_list"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:textSize="36sp"
-            android:text="@string/end_of_the_list" />
+            android:layout_marginStart="15dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            tools:text="1. Rice\n2. Maize\n3. Cotton" />
 
-        <Button
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="36dp"
+            app:dividerColor="@color/black" />
+
+
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/Return_Home_Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="15dp"
-            android:textColor="@color/white"
-            android:drawableStart="@drawable/ic_baseline_home_24"
             android:backgroundTint="@color/navy_blue"
-            android:text="@string/return_to_home_page" />
+            android:drawableStart="@drawable/ic_baseline_home_24"
+            android:text="@string/return_to_home_page"
+            android:textColor="@color/white" />
     </LinearLayout>
 </ScrollView>
