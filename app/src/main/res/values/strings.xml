@@ -6,7 +6,7 @@
     <string name="winter">Winter</string>
     <string name="rainy">Rainy</string>
     <string name="action_settings">Settings</string>
-    <string name="select_your_current_season">----------------------------\nSelect your current season\n----------------------------</string>
+    <string name="select_your_current_season">Select your current season</string>
     <string name="submit">Submit</string>
     <string name="next">Next</string>
     <string name="select_your_soil_to_recommend_crops">Select your soil type, so that we can recommend related crops</string>
@@ -23,11 +23,11 @@
     <string name="profession">Profession</string>
     <string name="based_on_your_factors_we_recommend">Based on your factors, we recommend:</string>
     <string name="return_to_home_page">Return To Home Page</string>
-    <string name="end_of_the_list">--- End of the list ---</string>
-    <string name="loading">Loading...</string>
+    <string name="end_of_the_list">End of the list</string>
+    <string name="loading">Loading…</string>
     <string name="App_Description">
-        This application is for people who are starting with agriculture and wanted to know about what crops can be grown in what season.
-        \n\nThis application with simple Interface with options help you choose crops based on the Season and Soil Type.
+        This application is for people who are starting with agriculture and wanted to know about what crops can be grown in each season.
+        \n\nThe simple interface of this application helps you choose crops based on your season and soil type.
         \n\nClick Next to continue
     </string>
 </resources>
