@@ -31,8 +31,8 @@ class SeasonSelection : AppCompatActivity() {
 
                 // Sending the data with the key
                 soilSelectionIntent.putExtra("seasonData_key",selectedSeasonData)
-                radioGroup.clearCheck()
                 startActivity(soilSelectionIntent) // data sent with going to next screen
+                radioGroup.clearCheck()
             }
         }
     }
