@@ -13,6 +13,8 @@ class ResultPage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result_page)
 
+        supportActionBar?.title = "Crops we recommend"
+
         val cropRecommendationTextView = findViewById<TextView>(R.id.crop_recommendations_list)
         /* val demoSoilText = findViewById<TextView>(R.id.demo_soil_text)  // Demo Soil Text */
 
@@ -28,7 +30,12 @@ class ResultPage : AppCompatActivity() {
 
         // Summer Recommendations
         var summerCrops = cropsNames[5]
-        fun sumRecomFunction() { var i = 11;var j = 0; while (i <= 30) { summerCrops += cropsNames[i];i += 1;j += 1} }
+        fun sumRecomFunction() {
+            var i = 11
+            var j = 0; while (i <= 30) {
+                summerCrops += cropsNames[i];i += 1;j += 1
+            }
+        }
         sumRecomFunction()
 
         // Monsoon/Rainy recommendations
@@ -57,11 +64,11 @@ class ResultPage : AppCompatActivity() {
             "Winter" -> when (receivedSoilSelectionData) {
                 "Alluvial Soil" -> cropRecommendationTextView.text =
                     cropsNames[21] + cropsNames[30] + cropsNames[3]
-                "Red Soil" -> cropRecommendationTextView.text = cropsNames[21]+cropsNames[31]
+                "Red Soil" -> cropRecommendationTextView.text = cropsNames[21] + cropsNames[31]
                 "Laterite Soil", "Arid Soil" -> cropRecommendationTextView.text =
-                    cropsNames[21]+cropsNames[31]+cropsNames[3]
+                    cropsNames[21] + cropsNames[31] + cropsNames[3]
                 "Forest and Mountain Soil" -> cropRecommendationTextView.text =
-                    cropsNames[21]+cropsNames[30]
+                    cropsNames[21] + cropsNames[30]
                 "Loamy Soil", "Black Soil" -> cropRecommendationTextView.text = cropsNames[21]
             }
 
